@@ -28,9 +28,9 @@
 		854F90BF1518D9480085B8E1 /* wallfinder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wallfinder; sourceTree = BUILT_PRODUCTS_DIR; };
 		854F90C31518D9480085B8E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		854F90C51518D9480085B8E1 /* wallfinder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = wallfinder.1; sourceTree = "<group>"; };
-		859AE394151A0C97004B46D2 /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = io.h; sourceTree = "<group>"; };
 		859AE395151A0D99004B46D2 /* doxygen.config */ = {isa = PBXFileReference; lastKnownFileType = text; name = doxygen.config; path = doc/doxygen.config; sourceTree = "<group>"; };
 		859AE396151A0D99004B46D2 /* inputs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = inputs.txt; path = doc/inputs.txt; sourceTree = "<group>"; };
+		859AE39C151A28A7004B46D2 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +47,7 @@
 		854F90B41518D9470085B8E1 = {
 			isa = PBXGroup;
 			children = (
+				859AE39C151A28A7004B46D2 /* README */,
 				859AE38F151A087D004B46D2 /* doc */,
 				854F90C21518D9480085B8E1 /* wallfinder */,
 				854F90C01518D9480085B8E1 /* Products */,
@@ -66,7 +67,6 @@
 			children = (
 				854F90C31518D9480085B8E1 /* main.cpp */,
 				854F90C51518D9480085B8E1 /* wallfinder.1 */,
-				859AE394151A0C97004B46D2 /* io.h */,
 			);
 			path = wallfinder;
 			sourceTree = "<group>";

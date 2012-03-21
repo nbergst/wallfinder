@@ -1,1 +1,4 @@
 INPUT   = "/Users/niklas/Documents/Development/src/wallfinder/"
+
+
+asdf
