@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		854F90C41518D9480085B8E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 854F90C31518D9480085B8E1 /* main.cpp */; };
 		854F90C61518D9480085B8E1 /* wallfinder.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 854F90C51518D9480085B8E1 /* wallfinder.1 */; };
+		859AE3A7151A39D6004B46D2 /* libjpeg.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 859AE3A6151A39D6004B46D2 /* libjpeg.8.dylib */; };
+		859AE3AC151A63A7004B46D2 /* wallfinder in CopyFiles */ = {isa = PBXBuildFile; fileRef = 854F90BF1518D9480085B8E1 /* wallfinder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +24,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		859AE3AB151A637A004B46D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = $SOURCE_ROOT/bin;
+			dstSubfolderSpec = 0;
+			files = (
+				859AE3AC151A63A7004B46D2 /* wallfinder in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +43,8 @@
 		859AE395151A0D99004B46D2 /* doxygen.config */ = {isa = PBXFileReference; lastKnownFileType = text; name = doxygen.config; path = doc/doxygen.config; sourceTree = "<group>"; };
 		859AE396151A0D99004B46D2 /* inputs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = inputs.txt; path = doc/inputs.txt; sourceTree = "<group>"; };
 		859AE39D151A2B25004B46D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		859AE3A6151A39D6004B46D2 /* libjpeg.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.8.dylib; path = usr/local/lib/libjpeg.8.dylib; sourceTree = SDKROOT; };
+		859AE3A9151A3A40004B46D2 /* iojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iojpeg.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859AE3A7151A39D6004B46D2 /* libjpeg.8.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +62,7 @@
 		854F90B41518D9470085B8E1 = {
 			isa = PBXGroup;
 			children = (
+				859AE3A6151A39D6004B46D2 /* libjpeg.8.dylib */,
 				859AE39D151A2B25004B46D2 /* README.md */,
 				859AE38F151A087D004B46D2 /* doc */,
 				854F90C21518D9480085B8E1 /* wallfinder */,
@@ -66,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				854F90C31518D9480085B8E1 /* main.cpp */,
+				859AE3A9151A3A40004B46D2 /* iojpeg.h */,
 				854F90C51518D9480085B8E1 /* wallfinder.1 */,
 			);
 			path = wallfinder;
@@ -91,6 +108,7 @@
 				854F90BC1518D9480085B8E1 /* Frameworks */,
 				854F90BD1518D9480085B8E1 /* CopyFiles */,
 				859AE38B1519EC87004B46D2 /* ShellScript */,
+				859AE3AB151A637A004B46D2 /* CopyFiles */,
 			);
 			buildRules = (
 			);

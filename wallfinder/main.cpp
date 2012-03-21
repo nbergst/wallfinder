@@ -5,7 +5,9 @@
  */
 
 #include <iostream>
+#include <fstream>
 
+#include "iojpeg.h"
 
 /**
  Main function
@@ -15,9 +17,13 @@
  */
 int main (int argc, const char * argv[])
 {
+    
+    unsigned char* image = readJpegFile(argv[1]);
 
-    // insert code here...
-    std::cout << "Hello Martin! \n";
+    std::cout << "Read image\n";
+
+    free(&image);
+    
     return 0;
 }
 

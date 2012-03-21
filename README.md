@@ -9,3 +9,7 @@ The first thing to do is to download [Brew](http://mxcl.github.com/homebrew/ "Ho
 
 A build stage should already be added to the Xcode project, and will build the documentation the same time as it builds the code. The generated files will be put in 'doc/html'
 
+
+
+## Other
+A nice instruction on how to markup the README-file can be found [here](http://daringfireball.net/projects/markdown/syntax "Markdown Syntax")
