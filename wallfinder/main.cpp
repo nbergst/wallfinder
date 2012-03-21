@@ -1,18 +1,22 @@
-//
-//  main.cpp
-//  wallfinder
-//
-//  Created by Niklas Bergström on 3/20/12.
-//  Copyright (c) 2012 KTH. All rights reserved.
-//
+/** \file main.cpp
+ *  \brief File just for testing
+ *
+ *  \author Niklas
+ */
 
 #include <iostream>
 
+
+/**
+ Main function
+ @param argc Number of arguments to the executable
+ @param argv The actual arguments
+ @returns Returns the status of the executable
+ */
 int main (int argc, const char * argv[])
 {
 
     // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "Hello Martin! \n";
     return 0;
 }
-
