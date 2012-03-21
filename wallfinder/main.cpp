@@ -19,10 +19,10 @@ int main (int argc, const char * argv[])
 {
     
     unsigned char* image = readJpegFile(argv[1]);
+    
+    std::cout << "Read image " << argv[1] << "\n";
 
-    std::cout << "Read image\n";
-
-    free(&image);
+    free(image);
     
     return 0;
 }

@@ -13,7 +13,6 @@ struct dimension {
     int y; /**< y-dimension (height) */
     int z; /**< z-dimension (number of channels) */
 };
-//typedef struct dimension dim;
 
 unsigned char* readJpegFile( const char* );
 int writeJpegFile( const char* _name, unsigned char* _data, dimension _dim );
@@ -58,6 +57,11 @@ unsigned char* readJpegFile( const char* _name ) {
     jpeg_destroy_decompress( &info );
     free( rowPtr[0] );
     fclose( file );
+    
+    std::cout << "width: " << info.image_width << std::endl;
+    
+    if( data == NULL )
+        std::cout << "NULL\n";
     
     return data;
     
