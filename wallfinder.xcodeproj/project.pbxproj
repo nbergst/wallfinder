@@ -30,7 +30,6 @@
 		854F90C51518D9480085B8E1 /* wallfinder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = wallfinder.1; sourceTree = "<group>"; };
 		859AE395151A0D99004B46D2 /* doxygen.config */ = {isa = PBXFileReference; lastKnownFileType = text; name = doxygen.config; path = doc/doxygen.config; sourceTree = "<group>"; };
 		859AE396151A0D99004B46D2 /* inputs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = inputs.txt; path = doc/inputs.txt; sourceTree = "<group>"; };
-		859AE39C151A28A7004B46D2 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		859AE39D151A2B25004B46D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				859AE39D151A2B25004B46D2 /* README.md */,
-				859AE39C151A28A7004B46D2 /* README */,
 				859AE38F151A087D004B46D2 /* doc */,
 				854F90C21518D9480085B8E1 /* wallfinder */,
 				854F90C01518D9480085B8E1 /* Products */,
