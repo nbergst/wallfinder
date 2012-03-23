@@ -22,9 +22,7 @@ int main (int argc, const char * argv[])
     
     std::cout << "Read image " << argv[1] << "\n";
 
-    free(image);
+    free( image );
     
     return 0;
 }
-
-
